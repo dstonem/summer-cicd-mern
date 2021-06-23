@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonathanjwatson/summer-cicd-mern.git"
+    "url": "git+https://github.com/dstonem/summer-cicd-mern.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jonathanjwatson/summer-cicd-mern/issues"
+    "url": "https://github.com/dstonem/summer-cicd-mern/issues"
   },
-  "homepage": "https://github.com/jonathanjwatson/summer-cicd-mern#readme",
+  "homepage": "https://github.com/dstonem/summer-cicd-mern#readme",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4",
