@@ -51,7 +51,7 @@ describe("restaurantController", () => {
         .returns(Promise.reject("error message"));
 
       await restaurantController.findById(req, res);
-      await console.log("---"); //adding one more await allows enough processing time for this test to pass
+      await console.log("--"); //adding one more await allows enough processing time for this test to pass
 
       expect(res.status).to.have.been.calledWith(422);
       expect(statusJsonSpy).to.have.been.calledWith("error message"); //this tests the json at the end of the error's promise chain
